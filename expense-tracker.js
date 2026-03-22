@@ -15,3 +15,17 @@ const getTotalExpense = () => {
 }
 
 console.log(`The total expense is: $${getTotalExpense()}`)
+
+const BUDGET_LIMIT = 500;
+
+function checkBudget() {
+    const total = getTotalExpense()
+    if (total > BUDGET_LIMIT) {
+        console.log(`⚠️⚠️ Over budget by $${total - BUDGET_LIMIT}!`)
+    }
+    else {
+        console.log(`✅ Within budget. $${BUDGET_LIMIT - total} remaining`)
+    }
+}
+
+checkBudget()
