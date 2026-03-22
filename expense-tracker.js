@@ -9,6 +9,7 @@ addExpense("Airtime", 100);
 addExpense("Food", 210);
 addExpense("Groceries", 25);
 addExpense("Transport", 50);
+addExpense("Entertainment", 150);
 
 const getTotalExpense = () => {
     return expense.reduce((sum , item) => sum + item.amount, 0)
