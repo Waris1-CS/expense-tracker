@@ -20,10 +20,10 @@ A simple expense tracker built with JavaScript while learning Git and GitHub.
 node expense-tracker.js
 ```
 
-## Commands used in this project
+## Commands Used in This Project
 
 | Command | Description |
-
+|---|---|
 | `git init` | Initialize repository |
 | `git add` | Stage changes |
 | `git commit` | Save permanently |
@@ -35,4 +35,4 @@ node expense-tracker.js
 | `git log` | View commit history |
 
 ## Author
-** Waris ** - learning git and Github from scratch   
+`WARIS` - learning git and Github from scratch   
