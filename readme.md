@@ -4,6 +4,9 @@ A simple expense tracker built with JavaScript while learning Git and GitHub.
 
 `Expense Tracker` is a simple JavaScript project to practice Git commands and version control. It allows users to track their expenses and manage their budget effectively.
 
+## Status
+Currently learning Git and GitHub 
+
 ## Features
 
 - Add expenses with name and amount
